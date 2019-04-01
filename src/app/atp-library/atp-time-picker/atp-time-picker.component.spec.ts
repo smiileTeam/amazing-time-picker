@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OwsTimePickerComponent } from './atp-time-picker.component';
+import { AtpTimePickerComponent } from './atp-time-picker.component';
 
-describe('OwsTimePickerComponent', () => {
-  let component: OwsTimePickerComponent;
-  let fixture: ComponentFixture<OwsTimePickerComponent>;
+describe('AtpTimePickerComponent', () => {
+  let component: AtpTimePickerComponent;
+  let fixture: ComponentFixture<AtpTimePickerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OwsTimePickerComponent ]
+      declarations: [ AtpTimePickerComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OwsTimePickerComponent);
+    fixture = TestBed.createComponent(AtpTimePickerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
